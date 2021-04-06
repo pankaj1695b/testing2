@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Flow-backend
+  description: Backend service for Central Platform for CICD
+  annotations: 
+    github.com/project-slug: pankaj1695b/testing2
+    backstage.io/source-ref: "https://github.com/pankaj1695b/testing2"
+    backstage.io/techdocs-ref: url:https://github.com/pankaj1695b/testing2
+    backstage.io/github-actions-id: https://github.com/pankaj1695b/testing2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
